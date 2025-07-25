@@ -1,0 +1,1 @@
+## in this folder all the componenst will be called here , i.e the folder we have created under LGagenticai
