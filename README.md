@@ -55,19 +55,22 @@ python app.py
 
 This will launch the Streamlit UI where you can enter your input, select use cases, and interact with the AI agent.
 
-## 📁 Project Structure 
+## 📁 Project Structure
+
+```
 .
-├── app.py                        # Main entry point to run the application
-└── src/
-    └── LGagenticai/             # Core source code directory
-        ├── main.py              # Loads and runs the LangGraph Agentic AI application
-        ├── LLMs/                # Contains modules related to large language models configuration
-        ├── graph/               # Graph builder modules for setting up use case-specific graphs
-        ├── nodes/               # Node definitions used in the graph processing
-        ├── state/               # State management modules
-        ├── tools/               # Utility tools used across the application
-        └── ui/
-            └── streamlitui/     # Streamlit UI components and configuration files
+├── app.py                             # Main entry point to run the application
+├── src/
+│   └── LGagenticai/
+│       ├── main.py                   # Loads and runs the LangGraph Agentic AI application
+│       ├── LLMs/                     # Modules related to LLM configuration and interaction
+│       ├── graph/                    # Graph builder modules for use case-specific LangGraph flows
+│       ├── nodes/                    # Individual node definitions used in the graph processing
+│       ├── state/                    # State management for maintaining agent memory and context
+│       ├── tools/                    # Utility tools used across the application
+│       └── ui/
+│           └── streamlitui/          # Streamlit UI components and layout configurations
+```
 
 
 ## 📄 License 
