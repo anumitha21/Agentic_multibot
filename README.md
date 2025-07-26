@@ -19,8 +19,7 @@ This project serves as a template for building highly customizable AI agents, ea
 * **Robust Error Handling**: Warnings and fallback paths for unsupported inputs or configuration issues.
 
 ---
-
-## 📁 Project Structure
+📁 Project Structure
 
 ├── app.py                         # Main entry point to run the application.
 └── src/
@@ -33,7 +32,7 @@ This project serves as a template for building highly customizable AI agents, ea
         ├── tools/                # Utility tools used across the application.
         └── ui/
             └── streamlitui/      # Streamlit UI components and configuration files.
-            
+
 ---
 
 ## 🔧 Installation
