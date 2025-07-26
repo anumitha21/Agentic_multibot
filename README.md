@@ -6,9 +6,10 @@
 LangGraph Agentic AI is an AI application featuring a Streamlit-based user interface that leverages large language models (LLMs) and graph-based processing to handle user-selected use cases. The application allows users to input their thoughts, configures an LLM model accordingly, builds a graph structure based on the selected use case, and displays the results interactively through the Streamlit UI.
 
 ## ✨ Features 
+- Natural language interaction with integrated LLMs
+- LangChain LLM Integration – Handles user input and generates intelligent responses.
+- Agentic Brain Powered by LangGraph – Manages the chatbot logic using a stateful graph.
 - Interactive Streamlit UI for user input and interaction
-- Integration with LLM models for natural language processing
-- Graph-based setup and processing tailored to specific use cases
 - Robust exception handling for a smooth user experience
 
 ## 🛠️ Technologies & Libraries Used
