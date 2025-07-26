@@ -1,15 +1,15 @@
-# LangGraph Agentic AI 🤖🚀
+# 🤖🚀 LangGraph Agentic AI 
 
-## Project Description 📝
+## 📝Project Description 
 LangGraph Agentic AI is an AI application featuring a Streamlit-based user interface that leverages large language models (LLMs) and graph-based processing to handle user-selected use cases. The application allows users to input their thoughts, configures an LLM model accordingly, builds a graph structure based on the selected use case, and displays the results interactively through the Streamlit UI.
 
-## Features ✨
+## ✨ Features 
 - Interactive Streamlit UI for user input and interaction
 - Integration with LLM models for natural language processing
 - Graph-based setup and processing tailored to specific use cases
 - Robust exception handling for a smooth user experience
 
-## Installation 🛠️
+## 🛠️ Installation 
 
 1. It is recommended to create a Python virtual environment:
    ```bash
@@ -24,7 +24,17 @@ LangGraph Agentic AI is an AI application featuring a Streamlit-based user inter
    pip install -r requirements.txt
    ```
 
-## Usage ▶️
+## 📦 Requirements 
+
+Key dependencies are listed in `requirements.txt` and include:
+- langchain_community
+- langchain_core
+- langgraph
+- langchain
+- langchain_groq
+- streamlit
+
+## ▶️ Usage 
 
 Run the application by executing the following command in the project root directory:
 
@@ -34,7 +44,7 @@ python app.py
 
 This will launch the Streamlit UI where you can enter your input, select use cases, and interact with the AI agent.
 
-## Project Structure 📁
+## 📁 Project Structure 
 
 - `app.py`: Main entry point to run the application.
 - `src/LGagenticai/`: Core source code directory containing:
@@ -46,19 +56,7 @@ This will launch the Streamlit UI where you can enter your input, select use cas
   - `tools/`: Utility tools used across the application.
   - `ui/streamlitui/`: Streamlit UI components and configuration files.
 
-## Dependencies 📦
-
-Key dependencies are listed in `requirements.txt` and include:
-- langchain_community
-- langchain_core
-- langgraph
-- langchain
-- langchain_groq
-- faiss-cpu
-- tavily-python
-- streamlit
-
-## License 📄
+## 📄 License 
 
 This project is licensed under the terms of the MIT License.
 
