@@ -1,5 +1,7 @@
 # 🤖  Agentic AI Chatbot
 
+---
+
 ## 🧠 Overview
 
 **LangGraph Agentic AI** is an intelligent, agent-based AI chatbot framework built using **LangGraph**, **LangChain**, and **Streamlit**. It enables users to interact with LLMs (such as OpenAI or Groq models) through a user-friendly graphical interface and dynamic agent workflows defined as graphs.
@@ -19,7 +21,7 @@ This project serves as a template for building highly customizable AI agents, ea
 * **Robust Error Handling**: Warnings and fallback paths for unsupported inputs or configuration issues.
 
 ---
-📁 Project Structure
+### 📁 Project Structure
 
 ├── app.py                         # Main entry point to run the application.
 └── src/
