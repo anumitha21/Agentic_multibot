@@ -13,12 +13,12 @@ LangGraph Agentic AI is an AI application featuring a Streamlit-based user inter
 ## 🛠️ Technologies & Libraries Used
 This project leverages the following tools and libraries to build an Agentic AI Chatbot:
 
-Python – Core programming language
-Streamlit – Interactive web UI
-LangChain – Framework for developing LLM-powered applications
-LangGraph – Multi-agent orchestration and graph-based workflow engine
-Groq – LLM providers integrated for various model support
-Pydantic – Data validation and management using Python type hints
+- Python – Core programming language
+- Streamlit – Interactive web UI
+- LangChain – Framework for developing LLM-powered applications
+- LangGraph – Multi-agent orchestration and graph-based workflow engine
+- Groq – LLM providers integrated for various model support
+- Pydantic – Data validation and management using Python type hints
 
 ## 🛠️ Installation 
 
@@ -56,16 +56,19 @@ python app.py
 This will launch the Streamlit UI where you can enter your input, select use cases, and interact with the AI agent.
 
 ## 📁 Project Structure 
+.
+├── app.py                        # Main entry point to run the application
+└── src/
+    └── LGagenticai/             # Core source code directory
+        ├── main.py              # Loads and runs the LangGraph Agentic AI application
+        ├── LLMs/                # Contains modules related to large language models configuration
+        ├── graph/               # Graph builder modules for setting up use case-specific graphs
+        ├── nodes/               # Node definitions used in the graph processing
+        ├── state/               # State management modules
+        ├── tools/               # Utility tools used across the application
+        └── ui/
+            └── streamlitui/     # Streamlit UI components and configuration files
 
-- `app.py`: Main entry point to run the application.
-- `src/LGagenticai/`: Core source code directory containing:
-  - `main.py`: Loads and runs the LangGraph Agentic AI application.
-  - `LLMs/`: Contains modules related to large language models configuration.
-  - `graph/`: Graph builder modules for setting up use case-specific graphs.
-  - `nodes/`: Node definitions used in the graph processing.
-  - `state/`: State management modules.
-  - `tools/`: Utility tools used across the application.
-  - `ui/streamlitui/`: Streamlit UI components and configuration files.
 
 ## 📄 License 
 
