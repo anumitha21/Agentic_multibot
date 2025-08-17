@@ -2,8 +2,7 @@
 
 ---
 
-## 📝Project Description 
-LangGraph Agentic AI is an interactive application powered by Large Language Models (LLMs) and graph-based processing. It features a Streamlit interface where users can define use cases, configure models, and visualize dynamic graph-driven results in real time.
+Agentic Chatbot is an interactive application powered by Large Language Models (LLMs) and graph-based processing. It features a Streamlit interface where users can define use cases, configure models, and visualize dynamic graph-driven results in real time.
 
 ## ✨ Features 
 - Natural language interaction with integrated LLMs
