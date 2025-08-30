@@ -4,7 +4,7 @@ from configparser import ConfigParser
 
 class Config:
     def __init__(self,config_file="./src/LGagenticai/ui/streamlitui/uiconfigfile.ini"):
-        self.config = ConfigParser() # this the obj of the config parser class...it will be alble to read the cinfig file
+        self.config = ConfigParser() # this the obj of the config parser class we are setting here...it will be able to read the cinfig file
         self.config.read(config_file) # this will read the config file and store it in the config
     ## creating seperate function for each component
     def get_llm_options(self):

@@ -12,13 +12,22 @@ class groqllm:
 
     def get_llm_model(self):
         try:
-            groq_api_key = self.user_control_input["GROQ_API_KEY"]
-            selected_groq_model = self.user_control_input['selected_groq_model']
-            if groq_api_key=='' and os.environ["GROQ_API_KEY"]=="":
+            groq_api_key = self.user_control_input.get("GROQ_API_KEY", "")
+            selected_groq_model = self.user_control_input.get('selected_groq_model', "")
+            
+            # Check if API key is provided
+            if not groq_api_key:
                 st.error("Please enter your GROQ API key")
+                return None
+            
+            # Check if model is selected
+            if not selected_groq_model:
+                st.error("Please select a GROQ model")
+                return None
 
-            llm = ChatGroq(api_key=groq_api_key,model=selected_groq_model)
+            llm = ChatGroq(api_key=groq_api_key, model=selected_groq_model)
+            return llm
 
         except Exception as e:
-            raise ValueError(f"Error occured wih Exception : {e}")
-        return llm
+            st.error(f"Error occurred with LLM initialization: {e}")
+            return None
